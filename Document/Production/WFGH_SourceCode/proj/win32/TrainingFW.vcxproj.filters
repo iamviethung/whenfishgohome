@@ -1,0 +1,204 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{c7ecf015-e971-4218-8987-c618dd771a93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Platform">
+      <UniqueIdentifier>{9e4264e0-9728-4ca2-ae79-3af9b14859cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Video">
+      <UniqueIdentifier>{9bb1a1f3-f7b2-446e-bc4d-3e7b8dc22c73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Win32">
+      <UniqueIdentifier>{826767be-081d-41e5-bc8d-2a64b7b4f963}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WhenFishGoHome">
+      <UniqueIdentifier>{98fa4358-5726-42e7-b18a-28cc491e2eb8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WhenFishGoHome\Sources">
+      <UniqueIdentifier>{1797d95b-6632-40bd-9a79-b7ff1f82e839}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WhenFishGoHome\Headers">
+      <UniqueIdentifier>{153d69ab-71f8-465f-ab7b-aa1827419bd3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\source\Game.cpp" />
+    <ClCompile Include="..\..\source\stdafx.cpp" />
+    <ClCompile Include="..\..\source\Platform\InputManager.cpp">
+      <Filter>Platform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\Platform\PlatformAndroid.cpp">
+      <Filter>Platform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\Platform\PlatformWin32.cpp">
+      <Filter>Platform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\Video\Texture.cpp">
+      <Filter>Video</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\Win32\main.cpp">
+      <Filter>Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\Utils\Math3D.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\Utils\FPSLimiter.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\Video\Program.cpp">
+      <Filter>Video</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\WhenFishGoHome\Button.cpp">
+      <Filter>WhenFishGoHome\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\WhenFishGoHome\Camera.cpp">
+      <Filter>WhenFishGoHome\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\WhenFishGoHome\Fish.cpp">
+      <Filter>WhenFishGoHome\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\WhenFishGoHome\GameManager.cpp">
+      <Filter>WhenFishGoHome\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\WhenFishGoHome\JumpPointSearch.cpp">
+      <Filter>WhenFishGoHome\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\WhenFishGoHome\Map.cpp">
+      <Filter>WhenFishGoHome\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\WhenFishGoHome\MenuManager.cpp">
+      <Filter>WhenFishGoHome\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\WhenFishGoHome\MiniMap.cpp">
+      <Filter>WhenFishGoHome\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\WhenFishGoHome\Object.cpp">
+      <Filter>WhenFishGoHome\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\WhenFishGoHome\Player.cpp">
+      <Filter>WhenFishGoHome\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\WhenFishGoHome\Processor.cpp">
+      <Filter>WhenFishGoHome\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\WhenFishGoHome\ResourceManager.cpp">
+      <Filter>WhenFishGoHome\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\WhenFishGoHome\SceneManager.cpp">
+      <Filter>WhenFishGoHome\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\WhenFishGoHome\Shark.cpp">
+      <Filter>WhenFishGoHome\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\WhenFishGoHome\TGA.cpp">
+      <Filter>WhenFishGoHome\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\WhenFishGoHome\Item.cpp">
+      <Filter>WhenFishGoHome\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\WhenFishGoHome\WaterCaustic.cpp">
+      <Filter>WhenFishGoHome\Sources</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\source\Game.h" />
+    <ClInclude Include="..\..\source\game_config.h" />
+    <ClInclude Include="..\..\source\macros.h" />
+    <ClInclude Include="..\..\source\stdafx.h" />
+    <ClInclude Include="..\..\source\Platform\InputManager.h">
+      <Filter>Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\Platform\Platform.h">
+      <Filter>Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\Platform\PlatformAndroid.h">
+      <Filter>Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\Platform\PlatformWin32.h">
+      <Filter>Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\Video\Texture.h">
+      <Filter>Video</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\Utils\Misc.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\Utils\Singleton.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\Utils\FPSLimiter.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\Utils\Math3D.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\Video\Program.h">
+      <Filter>Video</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\WhenFishGoHome\Button.h">
+      <Filter>WhenFishGoHome\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\WhenFishGoHome\Camera.h">
+      <Filter>WhenFishGoHome\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\WhenFishGoHome\Fish.h">
+      <Filter>WhenFishGoHome\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\WhenFishGoHome\GameManager.h">
+      <Filter>WhenFishGoHome\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\WhenFishGoHome\Globals.h">
+      <Filter>WhenFishGoHome\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\WhenFishGoHome\Item.h">
+      <Filter>WhenFishGoHome\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\WhenFishGoHome\JumpPointSearch.h">
+      <Filter>WhenFishGoHome\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\WhenFishGoHome\Map.h">
+      <Filter>WhenFishGoHome\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\WhenFishGoHome\MenuManager.h">
+      <Filter>WhenFishGoHome\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\WhenFishGoHome\MiniMap.h">
+      <Filter>WhenFishGoHome\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\WhenFishGoHome\Object.h">
+      <Filter>WhenFishGoHome\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\WhenFishGoHome\Player.h">
+      <Filter>WhenFishGoHome\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\WhenFishGoHome\Processor.h">
+      <Filter>WhenFishGoHome\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\WhenFishGoHome\ResourceManager.h">
+      <Filter>WhenFishGoHome\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\WhenFishGoHome\SceneManager.h">
+      <Filter>WhenFishGoHome\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\WhenFishGoHome\Shark.h">
+      <Filter>WhenFishGoHome\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\WhenFishGoHome\State.h">
+      <Filter>WhenFishGoHome\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\WhenFishGoHome\Struct.h">
+      <Filter>WhenFishGoHome\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\WhenFishGoHome\TGA.h">
+      <Filter>WhenFishGoHome\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\WhenFishGoHome\WaterCaustic.h">
+      <Filter>WhenFishGoHome\Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+</Project>

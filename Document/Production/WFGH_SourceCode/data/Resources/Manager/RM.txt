@@ -1,0 +1,227 @@
+#Menu
+FILE /Resources/Manager/MM.txt
+#Scenes: 4
+ID 0
+FILE /Resources/Manager/SM1.txt
+ID 1
+FILE /Resources/Manager/SM2.txt
+ID 2
+FILE /Resources/Manager/SM3.txt
+ID 3
+FILE /Resources/Manager/SM4.txt
+#Models: 24
+ID 0
+FILE /Resources/Model/Fish1.obj
+MINCOLLIDER -0.02 0.0 -0.02
+MAXCOLLIDER 0.02 0.0 0.02
+ID 1
+FILE /Resources/Model/Wall.obj
+MINCOLLIDER -1.0 -1.0 -1.0
+MAXCOLLIDER 1.0 1.0 1.0
+ID 2
+FILE /Resources/Model/Shark.obj
+MINCOLLIDER -0.4 0.0 -0.4
+MAXCOLLIDER 0.4 0.0 0.4
+ID 3
+FILE /Resources/Model/Player.obj
+MINCOLLIDER -0.2 0.0 -0.2
+MAXCOLLIDER 0.2 0.0 0.2
+ID 4
+FILE /Resources/Model/Starfish.obj
+MINCOLLIDER -0.2 0.0 -0.2
+MAXCOLLIDER 0.2 0.0 0.2
+ID 5
+FILE /Resources/Model/Plane.obj
+MINCOLLIDER -0.15 0.0 -0.15
+MAXCOLLIDER 0.15 0.0 0.15
+ID 6
+FILE /Resources/Model/Button.obj
+MINCOLLIDER -0.25 -0.1 0.0
+MAXCOLLIDER 0.25 0.1 0.0
+ID 7
+FILE /Resources/Model/Credits.obj
+MINCOLLIDER -0.35 -0.25 0.0
+MAXCOLLIDER 0.35 0.25 0.0
+ID 8
+FILE /Resources/Model/Menu.obj
+MINCOLLIDER -0.35 -0.25 0.0
+MAXCOLLIDER 0.35 0.25 0.0
+ID 9
+FILE /Resources/Model/Resume.obj
+MINCOLLIDER -0.35 -0.25 0.0
+MAXCOLLIDER 0.35 0.25 0.0
+ID 10
+FILE /Resources/Model/Quit.obj
+MINCOLLIDER -0.35 -0.25 0.0
+MAXCOLLIDER 0.35 0.25 0.0
+ID 11
+FILE /Resources/Model/AnalogCircle.obj
+MINCOLLIDER -0.35 -0.25 0.0
+MAXCOLLIDER 0.35 0.25 0.0
+ID 12
+FILE /Resources/Model/AnalogStick.obj
+MINCOLLIDER -0.35 -0.25 0.0
+MAXCOLLIDER 0.35 0.25 0.0
+ID 13
+FILE /Resources/Model/SubMenu.obj
+MINCOLLIDER -0.35 -0.25 0.0
+MAXCOLLIDER 0.35 0.25 0.0
+ID 14
+FILE /Resources/Model/DropItem.obj
+MINCOLLIDER -0.35 -0.25 0.0
+MAXCOLLIDER 0.35 0.25 0.0
+ID 15
+FILE /Resources/Model/Replay.obj
+MINCOLLIDER -0.35 -0.25 0.0
+MAXCOLLIDER 0.35 0.25 0.0
+ID 16
+FILE /Resources/Model/LevelButton.obj
+MINCOLLIDER -0.35 -0.25 0.0
+MAXCOLLIDER 0.35 0.25 0.0
+ID 17
+FILE /Resources/Model/Poison.obj
+MINCOLLIDER -0.2 0.0 -0.2
+MAXCOLLIDER 0.2 0.0 0.2
+ID 18
+FILE /Resources/Model/Turtle.obj
+MINCOLLIDER -0.2 0.0 -0.2
+MAXCOLLIDER 0.2 0.0 0.2
+ID 19
+FILE /Resources/Model/ShellFish.obj
+MINCOLLIDER -0.2 0.0 -0.2
+MAXCOLLIDER 0.2 0.0 0.2
+ID 20
+FILE /Resources/Model/Return.obj
+MINCOLLIDER -0.35 -0.25 0.0
+MAXCOLLIDER 0.35 0.25 0.0
+ID 21
+FILE /Resources/Model/SkyDome.obj
+MINCOLLIDER -0.35 -0.25 0.0
+MAXCOLLIDER 0.35 0.25 0.0
+ID 22
+FILE /Resources/Model/Gate.obj
+MINCOLLIDER -1.0 -1.0 -1.0
+MAXCOLLIDER 1.0 1.0 1.0
+ID 23
+FILE /Resources/Model/Key.obj
+MINCOLLIDER -0.2 0.0 -0.2
+MAXCOLLIDER 0.2 0.0 0.2
+#2D Textures: 50
+ID 0
+FILE /Resources/Texture/Fish1.tga
+ID 1
+FILE /Resources/Texture/Moss.tga
+ID 2
+FILE /Resources/Texture/Shark.tga
+ID 3
+FILE /Resources/Texture/Player.tga
+ID 4
+FILE /Resources/Texture/Starfish.tga
+ID 5
+FILE /Resources/Texture/Sea.tga
+ID 6
+FILE /Resources/Texture/Menu.tga
+ID 7
+FILE /Resources/Texture/Start.tga
+ID 8
+FILE /Resources/Texture/OkStart.tga
+ID 9
+FILE /Resources/Texture/Tutorial.tga
+ID 10
+FILE /Resources/Texture/OkTutorial.tga
+ID 11
+FILE /Resources/Texture/Options.tga
+ID 12
+FILE /Resources/Texture/OkOptions.tga
+ID 13
+FILE /Resources/Texture/Credits.tga
+ID 14
+FILE /Resources/Texture/OkCredits.tga
+ID 15
+FILE /Resources/Texture/Quit.tga
+ID 16
+FILE /Resources/Texture/OkQuit.tga
+ID 17
+FILE /Resources/Texture/UnClicked.tga
+ID 18
+FILE /Resources/Texture/Clicked.tga
+ID 19
+FILE /Resources/Texture/SubMenu.tga
+ID 20
+FILE /Resources/Texture/AnalogCircle.tga
+ID 21
+FILE /Resources/Texture/AnalogStick.tga
+ID 22
+FILE /Resources/Texture/DropItem.tga
+ID 23
+FILE /Resources/Texture/LevelMenu.tga
+ID 24
+FILE /Resources/Texture/Level1.tga
+ID 25
+FILE /Resources/Texture/Level2L.tga
+ID 26
+FILE /Resources/Texture/Level2U.tga
+ID 27
+FILE /Resources/Texture/Level3L.tga
+ID 28
+FILE /Resources/Texture/Level3U.tga
+ID 29
+FILE /Resources/Texture/Level4L.tga
+ID 30
+FILE /Resources/Texture/Level4U.tga
+ID 31
+FILE /Resources/Texture/LevelLocked.tga
+ID 32
+FILE /Resources/Texture/Poison.tga
+ID 33
+FILE /Resources/Texture/GreenTurtle.tga
+ID 34
+FILE /Resources/Texture/RedTurtle.tga
+ID 35
+FILE /Resources/Texture/ShellFish.tga
+ID 36
+FILE /Resources/Texture/Return.tga
+ID 37
+FILE /Resources/Texture/SkyDome.tga
+ID 38
+FILE /Resources/Texture/Win.tga
+ID 39
+FILE /Resources/Texture/Lose.tga
+ID 40
+FILE /Resources/Texture/Gate.tga
+ID 41
+FILE /Resources/Texture/Key.tga
+ID 42
+FILE /Resources/Texture/Water.tga
+ID 43
+FILE /Resources/Texture/Disp.tga
+ID 44
+FILE /Resources/Texture/Credits_page.tga
+ID 45
+FILE /Resources/Texture/Tutorial_page.tga
+ID 46
+FILE /Resources/Texture/PickedGreenTurtle.tga
+ID 47
+FILE /Resources/Texture/PickedRedTurtle.tga
+ID 48
+FILE /Resources/Texture/PickedShell.tga
+ID 49
+FILE /Resources/Texture/EndPoint.tga
+#Shader: 2
+ID 0
+VS /Resources/Shaders/ObjectShaderVS.vs
+FS /Resources/Shaders/ObjectShaderFS.fs
+ID 1
+VS /Resources/Shaders/WaterCaustic.vs
+FS /Resources/Shaders/WaterCaustic.fs
+#Map: 4
+ID 0
+FILE /Resources/Manager/MAP1.txt
+ID 1
+FILE /Resources/Manager/MAP2.txt
+ID 2
+FILE /Resources/Manager/MAP3.txt
+ID 3
+FILE /Resources/Manager/MAP4.txt
+#Save
+FILE /Resources/Manager/SAVE.txt

@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="original">
+      <UniqueIdentifier>{ded3992e-7343-47e9-92dc-2901b45c6214}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\image_DXT.c" />
+    <ClCompile Include="..\src\image_helper.c" />
+    <ClCompile Include="..\src\stb_image_aug.c" />
+    <ClCompile Include="..\src\original\stb_image-1.09.c">
+      <Filter>original</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\original\stb_image-1.16.c">
+      <Filter>original</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\image_DXT.h" />
+    <ClInclude Include="..\src\image_helper.h" />
+    <ClInclude Include="..\src\stb_image_aug.h" />
+    <ClInclude Include="..\src\stbi_DDS_aug.h" />
+    <ClInclude Include="..\src\stbi_DDS_aug_c.h" />
+  </ItemGroup>
+</Project>

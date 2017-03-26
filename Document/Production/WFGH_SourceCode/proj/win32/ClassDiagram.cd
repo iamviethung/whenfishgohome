@@ -1,0 +1,354 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="FPSLimiter" Collapsed="true">
+    <Position X="0.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAACBAAAQAAAAAQABAAAAAAARAAAAAAAAAKAQQAA=</HashCode>
+      <FileName>D:\Working\Backup_PJ\TrainingFW\source\Utils\FPSLimiter.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vector2" Collapsed="true">
+    <Position X="19.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAAAAEAAAAQBACAEAAAABAABgAAAAAAA=</HashCode>
+      <FileName>D:\Working\Backup_PJ\TrainingFW\source\Utils\Math3D.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vector3" Collapsed="true">
+    <Position X="12.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAAEAAAAQBACAEAAAABAADgAQAAAAA=</HashCode>
+      <FileName>D:\Working\Backup_PJ\TrainingFW\source\Utils\Math3D.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vector4" Collapsed="true">
+    <Position X="14" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAEAAAAQBACAEAAAABAAhgAQAAAAA=</HashCode>
+      <FileName>D:\Working\Backup_PJ\TrainingFW\source\Utils\Math3D.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Matrix" Collapsed="true">
+    <Position X="12.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEABAAAAAAAAAAAIAAQAAAAAgEQgAAAIgAggAAAI=</HashCode>
+      <FileName>D:\Working\Backup_PJ\TrainingFW\source\Utils\Math3D.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Rect" Collapsed="true">
+    <Position X="12.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAQAAAAAAAACAAAAEAAABgAAAAAAA=</HashCode>
+      <FileName>D:\Working\Backup_PJ\TrainingFW\source\Utils\Math3D.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Singleton&lt;T&gt;" Collapsed="true">
+    <Position X="3.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAAAAAgCAAAAAAAAAAAUAAAAAAAABAAA=</HashCode>
+      <FileName>D:\Working\Backup_PJ\TrainingFW\source\Utils\Singleton.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InputManager" Collapsed="true">
+    <Position X="2.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAABAAAAAAgAABAAAEAAIAEAAAAgIAAgQgA=</HashCode>
+      <FileName>D:\Working\Backup_PJ\TrainingFW\source\Platform\InputManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Platform" Collapsed="true">
+    <Position X="6" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAQADAAAAAEAABAAAAAAAAgaAACAEEAIAA=</HashCode>
+      <FileName>D:\Working\Backup_PJ\TrainingFW\source\Platform\Platform.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlatformAndroid" Collapsed="true">
+    <Position X="5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAABAQACAAAAAEAAAAACAAAAAgYAACAAEAIAA=</HashCode>
+      <FileName>D:\Working\Backup_PJ\TrainingFW\source\Platform\PlatformAndroid.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlatformWin32" Collapsed="true">
+    <Position X="7.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgwQAgAAABAQAAAAAAAAAAAAAUAAAQAgJAkCEAEAIAI=</HashCode>
+      <FileName>D:\Working\Backup_PJ\TrainingFW\source\Platform\PlatformWin32.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Program" Collapsed="true">
+    <Position X="19.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAIAQAAQAEAgABAAAAIgQQAQAAAAACIAIABAACAABA=</HashCode>
+      <FileName>D:\Working\Backup_PJ\TrainingFW\source\Video\Program.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Texture" Collapsed="true">
+    <Position X="17.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QgEAAIAABAEQgDAAEAAEAAAACQAIRAEAQAIEAgACQIA=</HashCode>
+      <FileName>D:\Working\Backup_PJ\TrainingFW\source\Video\Texture.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Button" Collapsed="true">
+    <Position X="0.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAgAAAAAAAAAIAAAAKAACAAAEAAAAQAAEBAAA=</HashCode>
+      <FileName>D:\Working\Backup_PJ\TrainingFW\source\WhenFishGoHome\Button.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Camera" Collapsed="true">
+    <Position X="12.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEKAAAAAgAAAAAAQCAAAAAAgCAAAAQIAAACAAAAABA=</HashCode>
+      <FileName>D:\Working\Backup_PJ\TrainingFW\source\WhenFishGoHome\Camera.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Fish" Collapsed="true">
+    <Position X="5.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAIAAAAAAAAAAABAAAACAAAEAAgAAAAAAARA=</HashCode>
+      <FileName>D:\Working\Backup_PJ\TrainingFW\source\WhenFishGoHome\Fish.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameManager" Collapsed="true">
+    <Position X="15.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAwAAAAAAAQAAAAAIAAAAAEABAAAIAAIIAACAADQAAA=</HashCode>
+      <FileName>D:\Working\Backup_PJ\TrainingFW\source\WhenFishGoHome\GameManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Globals" Collapsed="true">
+    <Position X="17.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAABAAAAAAAAAAAQACAAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>D:\Working\Backup_PJ\TrainingFW\source\WhenFishGoHome\Globals.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Item" Collapsed="true">
+    <Position X="7.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAEAAAACAQAAAAAAAACAAEAAAEAAEAAAAAAAABAAA=</HashCode>
+      <FileName>D:\Working\Backup_PJ\TrainingFW\source\WhenFishGoHome\Item.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Node" Collapsed="true">
+    <Position X="15.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAgAAAAAABAAAAAAYAAQAAAAAAYAAEAACEAAAQ=</HashCode>
+      <FileName>D:\Working\Backup_PJ\TrainingFW\source\WhenFishGoHome\JumpPointSearch.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenList" Collapsed="true">
+    <Position X="17.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAAAAAAJACAAAAAAAAAAAIAAAAIEA=</HashCode>
+      <FileName>D:\Working\Backup_PJ\TrainingFW\source\WhenFishGoHome\JumpPointSearch.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Searcher" Collapsed="true">
+    <Position X="15.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AoAQCAwAABoABAAAACAQMIAAgACiABYhQAAQgAAAAAA=</HashCode>
+      <FileName>D:\Working\Backup_PJ\TrainingFW\source\WhenFishGoHome\JumpPointSearch.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Map" Collapsed="true">
+    <Position X="19.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ARQAAAIBABAAAgAAEIAAAAAAAAAAQAAAAAAIAAIAAFA=</HashCode>
+      <FileName>D:\Working\Backup_PJ\TrainingFW\source\WhenFishGoHome\Map.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MenuManager" Collapsed="true">
+    <Position X="2.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QgRAyAAsEAQAQkACAAABCBEABAEAAQQYAAiCCBCwQEA=</HashCode>
+      <FileName>D:\Working\Backup_PJ\TrainingFW\source\WhenFishGoHome\MenuManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MiniMap" Collapsed="true">
+    <Position X="14" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAACAAQBAAAAABAAAAAAAABAAAAAAIAAACEAAAAAI=</HashCode>
+      <FileName>D:\Working\Backup_PJ\TrainingFW\source\WhenFishGoHome\MiniMap.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Object" Collapsed="true">
+    <Position X="5.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAQAAAAAAQgAAgAggQAAAAAQAAAAAAUAAAACIABAABA=</HashCode>
+      <FileName>D:\Working\Backup_PJ\TrainingFW\source\WhenFishGoHome\Object.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Player" Collapsed="true">
+    <Position X="9.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAEAAAAIADARABQgAAQAAAEIBAAIEEACIAIYIABBE=</HashCode>
+      <FileName>D:\Working\Backup_PJ\TrainingFW\source\WhenFishGoHome\Player.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ResourceManager" Collapsed="true">
+    <Position X="14" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIACCAQAAAQBAIAAAAEAAURAIAEEAAAAgAAABIgBA=</HashCode>
+      <FileName>D:\Working\Backup_PJ\TrainingFW\source\WhenFishGoHome\ResourceManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SceneManager" Collapsed="true">
+    <Position X="0.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>KIdCCKBigCSFA2ACAIAE8BEAFwpABxCJAICKCJCYIEQ=</HashCode>
+      <FileName>D:\Working\Backup_PJ\TrainingFW\source\WhenFishGoHome\SceneManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Shark" Collapsed="true">
+    <Position X="3" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAkQAAIABARAAKgAAQAAKAoAAQIEEQAIAAEQABIA=</HashCode>
+      <FileName>D:\Working\Backup_PJ\TrainingFW\source\WhenFishGoHome\Shark.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="State" Collapsed="true">
+    <Position X="1.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQgAAAgAAQAAgAAEAAAAAEAAAAAAAAAAAACBBiAAAA=</HashCode>
+      <FileName>D:\Working\Backup_PJ\TrainingFW\source\WhenFishGoHome\State.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WaterCaustic" Collapsed="true">
+    <Position X="15.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAQAAAAQAAoCAgAAgAAAAAAQAAAAAAAAQAACAEBAAAA=</HashCode>
+      <FileName>D:\Working\Backup_PJ\TrainingFW\source\WhenFishGoHome\WaterCaustic.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Game" Collapsed="true">
+    <Position X="14" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQQAAAAAAACAACBAAAAAAAAAAAiAAAAgIBACAAAAAAA=</HashCode>
+      <FileName>D:\Working\Backup_PJ\TrainingFW\source\Game.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="PointerEvent" Collapsed="true">
+    <Position X="17.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAEAAAAwAAAAAA=</HashCode>
+      <FileName>D:\Working\Backup_PJ\TrainingFW\source\Platform\InputManager.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_0043_1" Collapsed="true">
+    <Position X="9.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAgEAAAVAQAAAAAAAAABAAAAAAAQAAAAAACg=</HashCode>
+      <FileName>D:\Working\Backup_PJ\TrainingFW\source\WhenFishGoHome\TGA.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Color" Collapsed="true">
+    <Position X="14" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKAEAAQA=</HashCode>
+      <FileName>D:\Working\Backup_PJ\TrainingFW\source\WhenFishGoHome\Struct.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Vertex" Collapsed="true">
+    <Position X="12.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAIgAAAAAAACgAAAAAgAAAgA=</HashCode>
+      <FileName>D:\Working\Backup_PJ\TrainingFW\source\WhenFishGoHome\Struct.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="AffineCoefficient" Collapsed="true">
+    <Position X="12.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAADQWAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Working\Backup_PJ\TrainingFW\source\WhenFishGoHome\Struct.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="ObjectInfo" Collapsed="true">
+    <Position X="15.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAEAAAgAAQAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Working\Backup_PJ\TrainingFW\source\WhenFishGoHome\Struct.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Position" Collapsed="true">
+    <Position X="19.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAAAAAAQAAAAAAAAAAAABgAAAAAAA=</HashCode>
+      <FileName>D:\Working\Backup_PJ\TrainingFW\source\WhenFishGoHome\Struct.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Typedef Name="TGA_HEADER" Collapsed="true">
+    <Position X="9.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Working\Backup_PJ\TrainingFW\source\WhenFishGoHome\TGA.cpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Enum Name="KeyState" Collapsed="true">
+    <Position X="15.75" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QBAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Working\Backup_PJ\TrainingFW\source\Platform\InputManager.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="PointerState" Collapsed="true">
+    <Position X="19.25" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAIIAAAAAAAAAAAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>D:\Working\Backup_PJ\TrainingFW\source\Platform\InputManager.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Type" Collapsed="true">
+    <Position X="17.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAEAAAAAAEAAAAAAAAAAAgAAAAAAAAAAAQAAgAAAAA=</HashCode>
+      <FileName>D:\Working\Backup_PJ\TrainingFW\source\WhenFishGoHome\Struct.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ItemType" Collapsed="true">
+    <Position X="14" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAQQAAAAAAAAEIAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>D:\Working\Backup_PJ\TrainingFW\source\WhenFishGoHome\Struct.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ButtonType" Collapsed="true">
+    <Position X="12.25" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAIAEBICAAAAAAAAAACAAABAAAAAAQgAABAAgAAAQ=</HashCode>
+      <FileName>D:\Working\Backup_PJ\TrainingFW\source\WhenFishGoHome\Struct.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="LevelState" Collapsed="true">
+    <Position X="17.5" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>D:\Working\Backup_PJ\TrainingFW\source\WhenFishGoHome\Struct.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Result" Collapsed="true">
+    <Position X="12.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAAAAAQQAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Working\Backup_PJ\TrainingFW\source\WhenFishGoHome\Struct.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="STATE" Collapsed="true">
+    <Position X="15.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABCAABAAAAEEAAAAAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>D:\Working\Backup_PJ\TrainingFW\source\WhenFishGoHome\Struct.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SCENE" Collapsed="true">
+    <Position X="14" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAEAEAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Working\Backup_PJ\TrainingFW\source\WhenFishGoHome\Struct.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

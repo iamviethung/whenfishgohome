@@ -1,0 +1,121 @@
+﻿Build started 9/7/2015 17:07:20.
+     1>Project "C:\Users\Mon\Desktop\presentation (GL)\When fish go home\Document\Production\TrainingFW\proj\win32\TrainingFW.vcxproj" on node 3 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Users\Mon\Desktop\presentation (GL)\When fish go home\Document\Production\TrainingFW\proj\win32\..\..\lib\OGLES20\Include\\" /I"C:\Users\Mon\Desktop\presentation (GL)\When fish go home\Document\Production\TrainingFW\proj\win32\..\..\lib\SOIL\src\\" /I"C:\Users\Mon\Desktop\presentation (GL)\When fish go home\Document\Production\TrainingFW\proj\win32\..\..\lib\vld\include\\" /I"C:\Users\Mon\Desktop\presentation (GL)\When fish go home\Document\Production\TrainingFW\proj\win32\..\..\source\\" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\TrainingFW.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\source\stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Users\Mon\Desktop\presentation (GL)\When fish go home\Document\Production\TrainingFW\proj\win32\..\..\lib\OGLES20\Include\\" /I"C:\Users\Mon\Desktop\presentation (GL)\When fish go home\Document\Production\TrainingFW\proj\win32\..\..\lib\SOIL\src\\" /I"C:\Users\Mon\Desktop\presentation (GL)\When fish go home\Document\Production\TrainingFW\proj\win32\..\..\lib\vld\include\\" /I"C:\Users\Mon\Desktop\presentation (GL)\When fish go home\Document\Production\TrainingFW\proj\win32\..\..\source\\" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\source\Game.cpp ..\..\source\Platform\InputManager.cpp ..\..\source\Platform\PlatformAndroid.cpp ..\..\source\Platform\PlatformWin32.cpp ..\..\source\Utils\FPSLimiter.cpp ..\..\source\Utils\Math3D.cpp ..\..\source\Video\Program.cpp ..\..\source\Video\Texture.cpp ..\..\source\WhenFishGoHome\Button.cpp ..\..\source\WhenFishGoHome\Camera.cpp ..\..\source\WhenFishGoHome\Fish.cpp ..\..\source\WhenFishGoHome\GameManager.cpp ..\..\source\WhenFishGoHome\Item.cpp ..\..\source\WhenFishGoHome\JumpPointSearch.cpp ..\..\source\WhenFishGoHome\Map.cpp ..\..\source\WhenFishGoHome\MenuManager.cpp ..\..\source\WhenFishGoHome\MiniMap.cpp ..\..\source\WhenFishGoHome\Object.cpp ..\..\source\WhenFishGoHome\Player.cpp ..\..\source\WhenFishGoHome\Processor.cpp ..\..\source\WhenFishGoHome\ResourceManager.cpp ..\..\source\WhenFishGoHome\SceneManager.cpp ..\..\source\WhenFishGoHome\Shark.cpp ..\..\source\WhenFishGoHome\TGA.cpp ..\..\source\WhenFishGoHome\WaterCaustic.cpp ..\..\source\Win32\main.cpp
+         main.cpp
+         WaterCaustic.cpp
+         TGA.cpp
+         Shark.cpp
+         SceneManager.cpp
+     1>c:\users\mon\desktop\presentation (gl)\when fish go home\document\production\trainingfw\source\whenfishgohome\scenemanager.cpp(45): warning C4244: '=' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>c:\users\mon\desktop\presentation (gl)\when fish go home\document\production\trainingfw\source\whenfishgohome\scenemanager.cpp(46): warning C4244: '=' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>c:\users\mon\desktop\presentation (gl)\when fish go home\document\production\trainingfw\source\whenfishgohome\scenemanager.cpp(76): warning C4244: '=' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>c:\users\mon\desktop\presentation (gl)\when fish go home\document\production\trainingfw\source\whenfishgohome\scenemanager.cpp(77): warning C4244: '=' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>c:\users\mon\desktop\presentation (gl)\when fish go home\document\production\trainingfw\source\whenfishgohome\scenemanager.cpp(225): warning C4305: '+=' : truncation from 'double' to 'float'
+     1>c:\users\mon\desktop\presentation (gl)\when fish go home\document\production\trainingfw\source\whenfishgohome\scenemanager.cpp(229): warning C4305: '+=' : truncation from 'double' to 'float'
+     1>c:\users\mon\desktop\presentation (gl)\when fish go home\document\production\trainingfw\source\whenfishgohome\scenemanager.cpp(494): warning C4101: 'mapCount' : unreferenced local variable
+     1>c:\users\mon\desktop\presentation (gl)\when fish go home\document\production\trainingfw\source\whenfishgohome\scenemanager.cpp(602): warning C4101: 'mapPos' : unreferenced local variable
+     1>c:\users\mon\desktop\presentation (gl)\when fish go home\document\production\trainingfw\source\whenfishgohome\scenemanager.cpp(601): warning C4101: 'mapCount' : unreferenced local variable
+     1>c:\users\mon\desktop\presentation (gl)\when fish go home\document\production\trainingfw\source\whenfishgohome\scenemanager.cpp(1044): warning C4305: '-=' : truncation from 'double' to 'float'
+     1>c:\users\mon\desktop\presentation (gl)\when fish go home\document\production\trainingfw\source\whenfishgohome\scenemanager.cpp(1053): warning C4305: '-=' : truncation from 'double' to 'float'
+     1>c:\users\mon\desktop\presentation (gl)\when fish go home\document\production\trainingfw\source\whenfishgohome\scenemanager.cpp(1130): warning C4244: 'argument' : conversion from 'GLfloat' to 'int', possible loss of data
+     1>c:\users\mon\desktop\presentation (gl)\when fish go home\document\production\trainingfw\source\whenfishgohome\scenemanager.cpp(1180): warning C4305: '-=' : truncation from 'double' to 'float'
+     1>c:\users\mon\desktop\presentation (gl)\when fish go home\document\production\trainingfw\source\whenfishgohome\scenemanager.cpp(1183): warning C4305: '-=' : truncation from 'double' to 'float'
+     1>c:\users\mon\desktop\presentation (gl)\when fish go home\document\production\trainingfw\source\whenfishgohome\scenemanager.cpp(1193): warning C4244: 'argument' : conversion from 'GLfloat' to 'int', possible loss of data
+     1>c:\users\mon\desktop\presentation (gl)\when fish go home\document\production\trainingfw\source\whenfishgohome\scenemanager.cpp(1211): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\mon\desktop\presentation (gl)\when fish go home\document\production\trainingfw\source\whenfishgohome\scenemanager.cpp(1211): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\mon\desktop\presentation (gl)\when fish go home\document\production\trainingfw\source\whenfishgohome\scenemanager.cpp(1212): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\mon\desktop\presentation (gl)\when fish go home\document\production\trainingfw\source\whenfishgohome\scenemanager.cpp(1212): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+         ResourceManager.cpp
+     1>c:\users\mon\desktop\presentation (gl)\when fish go home\document\production\trainingfw\source\whenfishgohome\resourcemanager.cpp(427): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\mon\desktop\presentation (gl)\when fish go home\document\production\trainingfw\source\whenfishgohome\resourcemanager.cpp(441): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\mon\desktop\presentation (gl)\when fish go home\document\production\trainingfw\source\whenfishgohome\resourcemanager.cpp(376): warning C4101: 'a' : unreferenced local variable
+         Processor.cpp
+     1>c:\users\mon\desktop\presentation (gl)\when fish go home\document\production\trainingfw\source\whenfishgohome\processor.cpp(12): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\mon\desktop\presentation (gl)\when fish go home\document\production\trainingfw\source\whenfishgohome\processor.cpp(200): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\mon\desktop\presentation (gl)\when fish go home\document\production\trainingfw\source\whenfishgohome\processor.cpp(297): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\mon\desktop\presentation (gl)\when fish go home\document\production\trainingfw\source\whenfishgohome\processor.cpp(298): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\mon\desktop\presentation (gl)\when fish go home\document\production\trainingfw\source\whenfishgohome\processor.cpp(299): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\mon\desktop\presentation (gl)\when fish go home\document\production\trainingfw\source\whenfishgohome\processor.cpp(318): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>c:\users\mon\desktop\presentation (gl)\when fish go home\document\production\trainingfw\source\whenfishgohome\processor.cpp(332): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>c:\users\mon\desktop\presentation (gl)\when fish go home\document\production\trainingfw\source\whenfishgohome\processor.cpp(339): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>c:\users\mon\desktop\presentation (gl)\when fish go home\document\production\trainingfw\source\whenfishgohome\processor.cpp(351): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+         Player.cpp
+         Object.cpp
+         MiniMap.cpp
+         MenuManager.cpp
+     1>c:\users\mon\desktop\presentation (gl)\when fish go home\document\production\trainingfw\source\whenfishgohome\menumanager.cpp(252): warning C4101: 'buttonType' : unreferenced local variable
+     1>c:\users\mon\desktop\presentation (gl)\when fish go home\document\production\trainingfw\source\whenfishgohome\menumanager.cpp(255): warning C4101: 'clickedTexIndex' : unreferenced local variable
+     1>c:\users\mon\desktop\presentation (gl)\when fish go home\document\production\trainingfw\source\whenfishgohome\menumanager.cpp(286): warning C4101: 'buttonType' : unreferenced local variable
+     1>c:\users\mon\desktop\presentation (gl)\when fish go home\document\production\trainingfw\source\whenfishgohome\menumanager.cpp(289): warning C4101: 'clickedTexIndex' : unreferenced local variable
+         Map.cpp
+     1>c:\users\mon\desktop\presentation (gl)\when fish go home\document\production\trainingfw\source\whenfishgohome\map.cpp(20): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\mon\desktop\presentation (gl)\when fish go home\document\production\trainingfw\source\whenfishgohome\map.cpp(84): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>c:\users\mon\desktop\presentation (gl)\when fish go home\document\production\trainingfw\source\whenfishgohome\map.cpp(100): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\mon\desktop\presentation (gl)\when fish go home\document\production\trainingfw\source\whenfishgohome\map.cpp(102): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\mon\desktop\presentation (gl)\when fish go home\document\production\trainingfw\source\whenfishgohome\map.cpp(153): warning C4244: 'initializing' : conversion from 'GLfloat' to 'int', possible loss of data
+     1>c:\users\mon\desktop\presentation (gl)\when fish go home\document\production\trainingfw\source\whenfishgohome\map.cpp(154): warning C4244: 'initializing' : conversion from 'GLfloat' to 'int', possible loss of data
+     1>c:\users\mon\desktop\presentation (gl)\when fish go home\document\production\trainingfw\source\whenfishgohome\map.cpp(155): warning C4244: 'initializing' : conversion from 'GLfloat' to 'int', possible loss of data
+     1>c:\users\mon\desktop\presentation (gl)\when fish go home\document\production\trainingfw\source\whenfishgohome\map.cpp(156): warning C4244: 'initializing' : conversion from 'GLfloat' to 'int', possible loss of data
+     1>c:\users\mon\desktop\presentation (gl)\when fish go home\document\production\trainingfw\source\whenfishgohome\map.cpp(178): warning C4244: 'initializing' : conversion from 'GLfloat' to 'int', possible loss of data
+     1>c:\users\mon\desktop\presentation (gl)\when fish go home\document\production\trainingfw\source\whenfishgohome\map.cpp(179): warning C4244: 'initializing' : conversion from 'GLfloat' to 'int', possible loss of data
+     1>c:\users\mon\desktop\presentation (gl)\when fish go home\document\production\trainingfw\source\whenfishgohome\map.cpp(180): warning C4244: 'initializing' : conversion from 'GLfloat' to 'int', possible loss of data
+     1>c:\users\mon\desktop\presentation (gl)\when fish go home\document\production\trainingfw\source\whenfishgohome\map.cpp(181): warning C4244: 'initializing' : conversion from 'GLfloat' to 'int', possible loss of data
+         JumpPointSearch.cpp
+         Item.cpp
+     1>c:\users\mon\desktop\presentation (gl)\when fish go home\document\production\trainingfw\source\whenfishgohome\item.cpp(43): warning C4244: '=' : conversion from 'GLfloat' to 'int', possible loss of data
+     1>c:\users\mon\desktop\presentation (gl)\when fish go home\document\production\trainingfw\source\whenfishgohome\item.cpp(44): warning C4244: '=' : conversion from 'GLfloat' to 'int', possible loss of data
+         GameManager.cpp
+         Fish.cpp
+         Camera.cpp
+         Button.cpp
+         Texture.cpp
+         Program.cpp
+         Generating Code...
+     1>c:\users\mon\desktop\presentation (gl)\when fish go home\document\production\trainingfw\source\whenfishgohome\resourcemanager.cpp(135): warning C4715: 'ResourceManager::ReadTextures' : not all control paths return a value
+         Compiling...
+         Math3D.cpp
+     1>c:\users\mon\desktop\presentation (gl)\when fish go home\document\production\trainingfw\source\utils\math3d.cpp(718): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+         FPSLimiter.cpp
+     1>c:\users\mon\desktop\presentation (gl)\when fish go home\document\production\trainingfw\source\utils\fpslimiter.cpp(69): warning C4244: 'initializing' : conversion from 'float' to 'long', possible loss of data
+         PlatformWin32.cpp
+         PlatformAndroid.cpp
+         InputManager.cpp
+         Game.cpp
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Mon\Desktop\presentation (GL)\When fish go home\Document\Production\TrainingFW\proj\win32\..\..\bin\TrainingFW.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Users\Mon\Desktop\presentation (GL)\When fish go home\Document\Production\TrainingFW\proj\win32\..\..\lib\OGLES20\\" /LIBPATH:"C:\Users\Mon\Desktop\presentation (GL)\When fish go home\Document\Production\TrainingFW\proj\win32\..\..\lib\SOIL\\" /LIBPATH:"C:\Users\Mon\Desktop\presentation (GL)\When fish go home\Document\Production\TrainingFW\proj\win32\..\..\lib\vld\\" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Mon\Desktop\presentation (GL)\When fish go home\Document\Production\TrainingFW\proj\win32\..\..\bin\TrainingFW.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Mon\Desktop\presentation (GL)\When fish go home\Document\Production\TrainingFW\proj\win32\..\..\bin\TrainingFW.lib" /MACHINE:X86 Debug\Game.obj
+         Debug\InputManager.obj
+         Debug\PlatformAndroid.obj
+         Debug\PlatformWin32.obj
+         Debug\stdafx.obj
+         Debug\FPSLimiter.obj
+         Debug\Math3D.obj
+         Debug\Program.obj
+         Debug\Texture.obj
+         Debug\Button.obj
+         Debug\Camera.obj
+         Debug\Fish.obj
+         Debug\GameManager.obj
+         Debug\Item.obj
+         Debug\JumpPointSearch.obj
+         Debug\Map.obj
+         Debug\MenuManager.obj
+         Debug\MiniMap.obj
+         Debug\Object.obj
+         Debug\Player.obj
+         Debug\Processor.obj
+         Debug\ResourceManager.obj
+         Debug\SceneManager.obj
+         Debug\Shark.obj
+         Debug\TGA.obj
+         Debug\WaterCaustic.obj
+         Debug\main.obj
+         TrainingFW.vcxproj -> C:\Users\Mon\Desktop\presentation (GL)\When fish go home\Document\Production\TrainingFW\proj\win32\..\..\bin\TrainingFW.exe
+     1>Done Building Project "C:\Users\Mon\Desktop\presentation (GL)\When fish go home\Document\Production\TrainingFW\proj\win32\TrainingFW.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:27.10

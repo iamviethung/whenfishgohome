@@ -1,0 +1,85 @@
+﻿Build started 9/7/2015 17:07:20.
+     1>Project "C:\Users\Mon\Desktop\presentation (GL)\When fish go home\Document\Production\TrainingFW\lib\soil\proj\SOIL.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D STBI_NO_STDIO /D _CRT_SECURE_NO_WARNINGS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt ..\src\image_DXT.c ..\src\image_helper.c "..\src\original\stb_image-1.09.c" "..\src\original\stb_image-1.16.c" ..\src\stb_image_aug.c
+         stb_image_aug.c
+     1>c:\users\mon\desktop\presentation (gl)\when fish go home\document\production\trainingfw\lib\soil\src\stbi_dds_aug_c.h(362): warning C4018: '>' : signed/unsigned mismatch
+     1>c:\users\mon\desktop\presentation (gl)\when fish go home\document\production\trainingfw\lib\soil\src\stbi_dds_aug_c.h(366): warning C4018: '>' : signed/unsigned mismatch
+     1>c:\users\mon\desktop\presentation (gl)\when fish go home\document\production\trainingfw\lib\soil\src\stbi_dds_aug_c.h(390): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\mon\desktop\presentation (gl)\when fish go home\document\production\trainingfw\lib\soil\src\stbi_dds_aug_c.h(427): warning C4018: '<' : signed/unsigned mismatch
+         stb_image-1.16.c
+         stb_image-1.09.c
+         image_helper.c
+     1>c:\users\mon\desktop\presentation (gl)\when fish go home\document\production\trainingfw\lib\soil\src\image_helper.c(325): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\mon\desktop\presentation (gl)\when fish go home\document\production\trainingfw\lib\soil\src\image_helper.c(366): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\mon\desktop\presentation (gl)\when fish go home\document\production\trainingfw\lib\soil\src\image_helper.c(373): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\mon\desktop\presentation (gl)\when fish go home\document\production\trainingfw\lib\soil\src\image_helper.c(415): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\mon\desktop\presentation (gl)\when fish go home\document\production\trainingfw\lib\soil\src\image_helper.c(422): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+         image_DXT.c
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"C:\Users\Mon\Desktop\presentation (GL)\When fish go home\Document\Production\TrainingFW\lib\soil\proj\..\SOIL.lib" /NOLOGO Debug\image_DXT.obj
+         Debug\image_helper.obj
+         "Debug\stb_image-1.09.obj"
+         "Debug\stb_image-1.16.obj"
+         Debug\stb_image_aug.obj
+     1>stb_image-1.16.obj : warning LNK4006: _stbi_bmp_load_from_memory already defined in stb_image_aug.obj; second definition ignored
+     1>stb_image-1.16.obj : warning LNK4006: _stbi_bmp_test_memory already defined in stb_image_aug.obj; second definition ignored
+     1>stb_image-1.16.obj : warning LNK4006: _stbi_failure_reason already defined in stb_image_aug.obj; second definition ignored
+     1>stb_image-1.16.obj : warning LNK4006: _stbi_hdr_load_from_memory already defined in stb_image_aug.obj; second definition ignored
+     1>stb_image-1.16.obj : warning LNK4006: _stbi_hdr_test_memory already defined in stb_image_aug.obj; second definition ignored
+     1>stb_image-1.16.obj : warning LNK4006: _stbi_hdr_to_ldr_gamma already defined in stb_image_aug.obj; second definition ignored
+     1>stb_image-1.16.obj : warning LNK4006: _stbi_hdr_to_ldr_scale already defined in stb_image_aug.obj; second definition ignored
+     1>stb_image-1.16.obj : warning LNK4006: _stbi_image_free already defined in stb_image_aug.obj; second definition ignored
+     1>stb_image-1.16.obj : warning LNK4006: _stbi_is_hdr_from_memory already defined in stb_image_aug.obj; second definition ignored
+     1>stb_image-1.16.obj : warning LNK4006: _stbi_jpeg_load_from_memory already defined in stb_image_aug.obj; second definition ignored
+     1>stb_image-1.16.obj : warning LNK4006: _stbi_jpeg_test_memory already defined in stb_image_aug.obj; second definition ignored
+     1>stb_image-1.16.obj : warning LNK4006: _stbi_ldr_to_hdr_gamma already defined in stb_image_aug.obj; second definition ignored
+     1>stb_image-1.16.obj : warning LNK4006: _stbi_ldr_to_hdr_scale already defined in stb_image_aug.obj; second definition ignored
+     1>stb_image-1.16.obj : warning LNK4006: _stbi_load_from_memory already defined in stb_image_aug.obj; second definition ignored
+     1>stb_image-1.16.obj : warning LNK4006: _stbi_loadf_from_memory already defined in stb_image_aug.obj; second definition ignored
+     1>stb_image-1.16.obj : warning LNK4006: _stbi_png_load_from_memory already defined in stb_image_aug.obj; second definition ignored
+     1>stb_image-1.16.obj : warning LNK4006: _stbi_png_test_memory already defined in stb_image_aug.obj; second definition ignored
+     1>stb_image-1.16.obj : warning LNK4006: _stbi_psd_load_from_memory already defined in stb_image_aug.obj; second definition ignored
+     1>stb_image-1.16.obj : warning LNK4006: _stbi_psd_test_memory already defined in stb_image_aug.obj; second definition ignored
+     1>stb_image-1.16.obj : warning LNK4006: _stbi_register_loader already defined in stb_image_aug.obj; second definition ignored
+     1>stb_image-1.16.obj : warning LNK4006: _stbi_tga_load_from_memory already defined in stb_image_aug.obj; second definition ignored
+     1>stb_image-1.16.obj : warning LNK4006: _stbi_tga_test_memory already defined in stb_image_aug.obj; second definition ignored
+     1>stb_image-1.16.obj : warning LNK4006: _stbi_zlib_decode_buffer already defined in stb_image_aug.obj; second definition ignored
+     1>stb_image-1.16.obj : warning LNK4006: _stbi_zlib_decode_malloc already defined in stb_image_aug.obj; second definition ignored
+     1>stb_image-1.16.obj : warning LNK4006: _stbi_zlib_decode_malloc_guesssize already defined in stb_image_aug.obj; second definition ignored
+     1>stb_image-1.16.obj : warning LNK4006: _stbi_zlib_decode_noheader_buffer already defined in stb_image_aug.obj; second definition ignored
+     1>stb_image-1.16.obj : warning LNK4006: _stbi_zlib_decode_noheader_malloc already defined in stb_image_aug.obj; second definition ignored
+     1>stb_image-1.09.obj : warning LNK4006: _stbi_bmp_load_from_memory already defined in stb_image_aug.obj; second definition ignored
+     1>stb_image-1.09.obj : warning LNK4006: _stbi_bmp_test_memory already defined in stb_image_aug.obj; second definition ignored
+     1>stb_image-1.09.obj : warning LNK4006: _stbi_failure_reason already defined in stb_image_aug.obj; second definition ignored
+     1>stb_image-1.09.obj : warning LNK4006: _stbi_hdr_load_from_memory already defined in stb_image_aug.obj; second definition ignored
+     1>stb_image-1.09.obj : warning LNK4006: _stbi_hdr_test_memory already defined in stb_image_aug.obj; second definition ignored
+     1>stb_image-1.09.obj : warning LNK4006: _stbi_hdr_to_ldr_gamma already defined in stb_image_aug.obj; second definition ignored
+     1>stb_image-1.09.obj : warning LNK4006: _stbi_hdr_to_ldr_scale already defined in stb_image_aug.obj; second definition ignored
+     1>stb_image-1.09.obj : warning LNK4006: _stbi_image_free already defined in stb_image_aug.obj; second definition ignored
+     1>stb_image-1.09.obj : warning LNK4006: _stbi_is_hdr_from_memory already defined in stb_image_aug.obj; second definition ignored
+     1>stb_image-1.09.obj : warning LNK4006: _stbi_jpeg_load_from_memory already defined in stb_image_aug.obj; second definition ignored
+     1>stb_image-1.09.obj : warning LNK4006: _stbi_jpeg_test_memory already defined in stb_image_aug.obj; second definition ignored
+     1>stb_image-1.09.obj : warning LNK4006: _stbi_ldr_to_hdr_gamma already defined in stb_image_aug.obj; second definition ignored
+     1>stb_image-1.09.obj : warning LNK4006: _stbi_ldr_to_hdr_scale already defined in stb_image_aug.obj; second definition ignored
+     1>stb_image-1.09.obj : warning LNK4006: _stbi_load_from_memory already defined in stb_image_aug.obj; second definition ignored
+     1>stb_image-1.09.obj : warning LNK4006: _stbi_loadf_from_memory already defined in stb_image_aug.obj; second definition ignored
+     1>stb_image-1.09.obj : warning LNK4006: _stbi_png_load_from_memory already defined in stb_image_aug.obj; second definition ignored
+     1>stb_image-1.09.obj : warning LNK4006: _stbi_png_test_memory already defined in stb_image_aug.obj; second definition ignored
+     1>stb_image-1.09.obj : warning LNK4006: _stbi_psd_load_from_memory already defined in stb_image_aug.obj; second definition ignored
+     1>stb_image-1.09.obj : warning LNK4006: _stbi_psd_test_memory already defined in stb_image_aug.obj; second definition ignored
+     1>stb_image-1.09.obj : warning LNK4006: _stbi_register_loader already defined in stb_image_aug.obj; second definition ignored
+     1>stb_image-1.09.obj : warning LNK4006: _stbi_tga_load_from_memory already defined in stb_image_aug.obj; second definition ignored
+     1>stb_image-1.09.obj : warning LNK4006: _stbi_tga_test_memory already defined in stb_image_aug.obj; second definition ignored
+     1>stb_image-1.09.obj : warning LNK4006: _stbi_zlib_decode_buffer already defined in stb_image_aug.obj; second definition ignored
+     1>stb_image-1.09.obj : warning LNK4006: _stbi_zlib_decode_malloc already defined in stb_image_aug.obj; second definition ignored
+     1>stb_image-1.09.obj : warning LNK4006: _stbi_zlib_decode_malloc_guesssize already defined in stb_image_aug.obj; second definition ignored
+     1>stb_image-1.09.obj : warning LNK4006: _stbi_zlib_decode_noheader_buffer already defined in stb_image_aug.obj; second definition ignored
+     1>stb_image-1.09.obj : warning LNK4006: _stbi_zlib_decode_noheader_malloc already defined in stb_image_aug.obj; second definition ignored
+         SOIL.vcxproj -> C:\Users\Mon\Desktop\presentation (GL)\When fish go home\Document\Production\TrainingFW\lib\soil\proj\..\SOIL.lib
+     1>Done Building Project "C:\Users\Mon\Desktop\presentation (GL)\When fish go home\Document\Production\TrainingFW\lib\soil\proj\SOIL.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.21
